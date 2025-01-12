@@ -15,3 +15,9 @@ Nagram is a third-party Telegram client based on [NekoX](https://github.com/Neko
 - Undo and Redo
 - Scrollable chat preview (thanks to TeleTux)
 - Noise suppress and voice enhance (thanks to )
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/ioit2025/Nagram@main/.github/contributors.svg">
+    <img src="https://cdn.jsdelivr.net/gh/ioit2025/Nagram@main/.github/contributors.svg" />
+  </a>
+</p>
