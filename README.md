@@ -1,28 +1,28 @@
-![IMG_7209](https://github.com/user-attachments/assets/a588bef5-76c4-4536-b1b6-291f52ddce4b)
+![Nagram Logo](https://github.com/user-attachments/assets/a588bef5-76c4-4536-b1b6-291f52ddce4b)
 
 # Nagram
 
-Nagram is a third-party Telegram client based on [NekoX](https://github.com/NekoX-Dev/NekoX) with some modifications.
+Nagram 是一个基于 [NekoX](https://github.com/NekoX-Dev/NekoX) 的第三方 Telegram 客户端，经过了一些修改。
 
-## Additional feature over Nagram
+## Nagram 的额外功能
 
-- Nice icon (thanks to MaitungTM)
-- Combine message
-- Editable text style 
-- Forced copy
-- Invert reply
-- Quick reply in longClick menu (thanks to @blxueya)
-- Undo and Redo
-- Scrollable chat preview (thanks to TeleTux)
-- Noise suppress and voice enhance (thanks to )
+- 精美图标（感谢 MaitungTM）
+- 消息合并
+- 可编辑文本样式
+- 强制复制
+- 回复反转
+- 长按菜单中的快速回复（感谢 @blxueya）
+- 撤销和重做
+- 可滚动的聊天预览（感谢 TeleTux）
+- 噪音抑制和语音增强（感谢提供者）
 
-## Build apk
-We will use GitHub Actions to build the apk
+## 构建 APK
 
-1. Create your own `release.keystore` to replace `TMessagesProj/release.keystore`.
+我们将使用 GitHub Actions 来构建 APK。
 
-2. Open LOCAL_PROPERTIES.txt with a code editor
-He should look like this
+1. 创建自己的 `release.keystore` 文件，并替换 `TMessagesProj/release.keystore`。
+   
+2. 使用代码编辑器打开 `LOCAL_PROPERTIES.txt` 文件。文件内容应如下所示：
 ```
 KEYSTORE_PASS=123456
 ALIAS_NAME=key0
@@ -30,6 +30,3 @@ ALIAS_PASS=123456
 TELEGRAM_APP_ID=123456
 TELEGRAM_APP_HASH=abcdefg
 ```
-
-3. Replace the contents with your own. Save and exit.
-
