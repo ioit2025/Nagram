@@ -16,8 +16,20 @@ Nagram is a third-party Telegram client based on [NekoX](https://github.com/Neko
 - Scrollable chat preview (thanks to TeleTux)
 - Noise suppress and voice enhance (thanks to )
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/ioit2025/Nagram@main/.github/contributors.svg">
-    <img src="https://cdn.jsdelivr.net/gh/ioit2025/Nagram@main/.github/contributors.svg" />
-  </a>
-</p>
+## Build apk
+We will use GitHub Actions to build the apk
+
+1. Create your own `release.keystore` to replace `TMessagesProj/release.keystore`.
+
+2. Open LOCAL_PROPERTIES.txt with a code editor
+He should look like this
+```
+KEYSTORE_PASS=123456
+ALIAS_NAME=key0
+ALIAS_PASS=123456
+TELEGRAM_APP_ID=123456
+TELEGRAM_APP_HASH=abcdefg
+```
+
+3. Replace the contents with your own. Save and exit.
+
