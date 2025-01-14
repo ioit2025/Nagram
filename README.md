@@ -30,3 +30,13 @@ ALIAS_PASS=123456
 TELEGRAM_APP_ID=123456
 TELEGRAM_APP_HASH=abcdefg
 ```
+将文件里面的内容替换为你自己的
+
+3. 将文件编码为base64输出
+```
+base64 LOCAL_PROPERTIES.txt
+```
+
+4. 将编码并输出后的字符复制下来
+
+5. 添加 Actions secrets and variables [？](https://docs.github.com/zh/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
