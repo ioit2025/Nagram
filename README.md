@@ -40,3 +40,8 @@ base64 LOCAL_PROPERTIES.txt
 4. 将编码并输出后的字符复制下来
 
 5. 添加 Actions secrets and variables [？](https://docs.github.com/zh/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
+
+变量
+- LOCAL_PROPERTIES
+- HELPER_BOT_TOKEN
+- HELPER_BOT_TARGET
